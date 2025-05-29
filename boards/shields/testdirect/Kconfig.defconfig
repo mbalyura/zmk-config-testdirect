@@ -1,0 +1,6 @@
+if SHIELD_TESTDIRECT
+
+config ZMK_KEYBOARD_NAME
+	default "Testdirect"
+
+endif
