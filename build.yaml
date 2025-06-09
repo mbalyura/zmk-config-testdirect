@@ -21,3 +21,4 @@
 include:
   - board: nice_nano_v2
     shield: testdirect
+    snippet: zmk-usb-logging
