@@ -17,24 +17,30 @@
 
 			, <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D5  P0.24  |  F
 			, <&gpio1 0  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D6  P1.00  |  G
-			, <&gpio1 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // P1.01  |  H
-			, <&gpio1 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // P1.02  |  I
-			, <&gpio1 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // P1.07  |  J
+			, <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D2  P0.11  |  ?
+			, <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D6  P1.04  |  ?
+			, <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D6  P1.06  |  ?
 
-      , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D10 P1.06  |  K
-			, <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D21 P0.31  |  L
-			, <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D20 P0.29  |  M
-			, <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D19 P0.02  |  N
-			, <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D18 P1.15  |  O
+			, <&gpio1 1  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // P1.01  |
+			, <&gpio1 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // P1.02  |
+			, <&gpio1 7  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // P1.07  |
 
-      , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D17 P1.13  |  P
-			, <&gpio1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D16 P1.10  |  Q
-			, <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D15 P1.11  |  R
-			, <&gpio1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D14 P1.12  |  S
-			, <&gpio1 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D13 P1.14  |  T
+      // , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D10 P1.06  |
+			, <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D21 P0.31  |l
+			, <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D20 P0.29  |m
+			, <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D19 P0.02  |n
+			, <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D18 P1.15  |o
 
-      , <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D12 P0.19  |  U
-			, <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D11 P0.18  |  V
+      , <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D17 P1.13  |p
+			// , <&gpio1 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D16 P1.10  |
+			, <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D15 P1.11  |r
+			, <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D2  P0.10  |  ?
+			, <&gpio0  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D2  P0.09  |  ?
+			// , <&gpio1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D14 P1.12  |
+			// , <&gpio1 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D13 P1.14  |
+
+      // , <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D12 P0.19  |
+			// , <&gpio0 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>   // D11 P0.18  |
 			;
 	};
 
@@ -47,7 +53,7 @@
 			RC(0,5)  RC(0,6)  RC(0,7)  RC(0,8)  RC(0,9)
 			RC(0,10) RC(0,11) RC(0,12) RC(0,13) RC(0,14)
 			RC(0,15) RC(0,16) RC(0,17) RC(0,18) RC(0,19)
-			RC(0,20) RC(0,21)
+			RC(0,20)
 		>;
 	};
 };
