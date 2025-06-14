@@ -10,6 +10,7 @@ config GPIO
 	default y
 
 config ZMK_KSAN_DIRECT_POLLING
+	bool "Enable direct polling for kscan"
 	default y
 
 endif
