@@ -6,4 +6,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_USB
 	default y
 
+config GPIO
+	default y
+
+config ZMK_KSAN_DIRECT_POLLING
+	default y
+
 endif

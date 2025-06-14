@@ -32,7 +32,6 @@
             , <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //  q  |  29
             , <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //  r  |  31
 
-
             , <&pro_micro 23 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //  s  |  33
             , <&pro_micro 25 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //  t  |  35
             , <&pro_micro 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> //  u  |  37
